@@ -14,14 +14,13 @@ body .seen .bookmark ul {
   display: flex;
   position: absolute;
   top: 50;
-  
 }
 
 body .seen .bookmark ul li {
   padding: 3px 10px;
   margin: 0 10px;
   font-size: 13px;
-  border-radius: 50%;
+  border-radius: 15px;
   position: relative;
 }
 
@@ -195,6 +194,7 @@ body .seen .main .recent ul li {
   margin: 0 10px;
   position: relative;
   border-radius: 20px;
+  box-sizing: border-box;
 }
 
 body .seen .main .recent ul li:hover {
