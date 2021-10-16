@@ -1,0 +1,216 @@
+.top {
+	width: 100%;
+	height: 100px;
+	position: relative;
+}
+
+
+body .top ul {
+	display: flex;
+	position: absolute;
+	top: 15px;
+	right: 25px;
+}
+
+body .top ul li {
+	margin: 0 7px;
+}
+
+body .top ul .apps a {
+	color: black;
+	opacity: .5;
+}
+
+body .top ul .apps a:hover {
+	opacity: 1;
+}
+
+body .top ul .login-btn {
+	padding: 7px 10px;
+	font-size: 14px;
+	background-color: rgba(0, 141, 270);
+	border-radius: 3px;
+}
+
+body .top ul .login-btn a {
+	color: white;
+	font-weight: 600;
+}
+
+body .top ul li a {
+	text-decoration: none;
+}
+
+body .main {
+	width: 100%;
+	height: 530px;
+	position: relative;
+}
+
+.main .logo {
+	position: absolute;
+	display: block;
+	font-size: 80px;
+	font-weight: 500;
+	top: 70px;
+	left: 556px;
+}
+
+body .main .logo h1 .first {
+  color: rgba(0, 141, 239);
+}
+
+body .main .logo h1 .second {
+  color: rgba(233, 78, 48);
+}
+
+body .main .logo h1 .third {
+  color: rgba(233, 212, 0);
+}
+
+body .main .logo h1 .forth {
+  color: rgba(0, 141, 239);
+}
+
+body .main .logo h1 .fifth {
+  color: rgba(2, 178, 0);
+}
+
+body .main .logo h1 .sixth {
+  color: rgba(233, 78, 48);
+}
+
+.main .font {
+	position: absolute;
+	top: 146px;
+	left: 753px;
+	color: royalblue;
+}
+
+.main .search {
+	position: absolute;
+	top: 180px;
+	left: 430px;
+}
+
+.main .search input {
+	width: 500px;
+	height: 40px;
+	border-radius: 20px;
+	border: 1px solid gray;
+}
+
+.main .search input:hover {
+	box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .11);
+}
+
+.main .search input:focus {
+	outline: none;
+}
+
+.main a {
+	text-decoration: none;
+}
+
+.main .icons a.sch {
+	position: absolute;
+	top: 181px;
+	right: 510px;
+	color: royalblue;
+	padding: 5px 10px 5px 5px;
+	border-radius: 20px;
+}
+
+.main .icons a.mic {
+	position: absolute;
+	top: 181px;
+	padding: 5px;
+	color: royalblue;
+	right: 560px;
+}
+
+.main .icons a .key {
+	position: absolute;
+	top: 181px;
+	color: gray;
+	padding: 5px 9px;
+	right: 596px;
+}
+
+.main .icons a.camera {
+	position: absolute;
+	top: 181px;
+	right: 630px;
+	padding: 5px;
+	color: gray;
+}
+
+.main .icons a.search2 {
+	position: absolute;
+	top: 181px;
+	padding: 5px;
+	color: gray;
+	left: 435px;
+	opacity: .7;
+}
+
+.footer {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.footer .country {
+	height: 46px;
+	background-color: rgba(139, 145, 158, .3);
+	border: 1px solid rgba(139, 145, 158, 1);
+}
+
+.footer .country p {
+	position: absolute;
+	color: black;
+	z-index: 2;
+	display: block;
+	top: 14px;
+	color: gray;
+	left: 15px;
+}
+
+.footer .policy {
+	height: 49px;
+	background-color: rgba(139, 145, 158, .4);
+	position: relative;
+	border-left: rgba(139, 145, 158, 1);
+}
+
+.footer .policy ul.left {
+	display: flex;
+	position: absolute;
+	top: 18px;
+	left: 5px;
+	font-size: 16px;
+}
+
+.footer .policy ul.left a {
+	text-decoration: none;
+}
+
+.footer .policy ul.right {
+	position: absolute;
+	display: flex;
+	top: 13px;
+	right: 30px;
+}
+
+.footer .policy ul.right a {
+	text-decoration: none;
+}
+
+.footer .policy ul li {
+	margin: 5px;
+	font-size: 14px;
+	color: gray;
+}
+
+
+
